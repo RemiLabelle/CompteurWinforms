@@ -1,6 +1,6 @@
 ﻿namespace _2A6_Winforms_2024
 {
-    partial class Form1
+    partial class Form1 : Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -65,7 +65,7 @@
             buttonPlus.TabIndex = 2;
             buttonPlus.Text = "+";
             buttonPlus.UseVisualStyleBackColor = true;
-            buttonPlus.Click += button1_Click;
+            buttonPlus.Click += buttonPlus_Click;
             // 
             // buttonMoins
             // 

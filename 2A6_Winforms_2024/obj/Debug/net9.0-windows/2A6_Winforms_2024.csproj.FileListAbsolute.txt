@@ -14,3 +14,4 @@ C:\Users\6327999\Desktop\2A6_Winforms_2024\2A6_Winforms_2024\obj\Debug\net9.0-wi
 C:\Users\6327999\Desktop\2A6_Winforms_2024\2A6_Winforms_2024\obj\Debug\net9.0-windows\2A6_Winforms_2024.pdb
 C:\Users\6327999\Desktop\2A6_Winforms_2024\2A6_Winforms_2024\obj\Debug\net9.0-windows\2A6_Winforms_2024.genruntimeconfig.cache
 C:\Users\6327999\Desktop\2A6_Winforms_2024\2A6_Winforms_2024\obj\Debug\net9.0-windows\ref\2A6_Winforms_2024.dll
+C:\Users\6327999\Desktop\2A6_Winforms_2024\2A6_Winforms_2024\obj\Debug\net9.0-windows\2A6_Winforms_2024.sourcelink.json

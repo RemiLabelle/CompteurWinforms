@@ -2,9 +2,20 @@ namespace _2A6_Winforms_2024
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        private readonly Compteur _compteur;
+
+        public Form1(Compteur compteur)
         {
             InitializeComponent();
+
+            _compteur = compteur;
+
+            Répercuter();
+        }
+
+        private void Répercuter()
+        {
+            textBoxCompteur.Text = _compteur.Compte.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -12,9 +23,12 @@ namespace _2A6_Winforms_2024
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonPlus_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(textBoxCompteur.Text, out int compteur))
+            _compteur.Compte++;
+            Répercuter();
+
+            /*if (int.TryParse(textBoxCompteur.Text, out int compteur))
             {
                 compteur++;
                 textBoxCompteur.Text = compteur.ToString();
@@ -22,12 +36,15 @@ namespace _2A6_Winforms_2024
             else
             {
                 MessageBox.Show($"Impossible d'incrémenter '{textBoxCompteur.Text}'");
-            }
+            }*/
         }
 
         private void buttonMoins_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(textBoxCompteur.Text, out int compteur) && compteur > 0)
+            _compteur.Compte--;
+            Répercuter();
+
+            /*if (int.TryParse(textBoxCompteur.Text, out int compteur) && compteur > 0)
             {
                 compteur--;
                 textBoxCompteur.Text = compteur.ToString();
@@ -35,12 +52,29 @@ namespace _2A6_Winforms_2024
             else
             {
                 MessageBox.Show($"Impossible de décrémenter '{textBoxCompteur.Text}'");
-            }
+            }*/
         }
 
         private void buttonReset_Click(object sender, EventArgs e)
         {
-            textBoxCompteur.Text = "0";
+            _compteur.Compte = 0;
+            Répercuter();
+        }
+
+        private void textBoxCompteur_KeyPress(object sender, KeyPressEventArgs e) 
+        {
+            if ((Keys)e.KeyChar == Keys.Return) 
+            {
+                if (int.TryParse(textBoxCompteur.Text, out int compte))
+                {
+                    _compteur.Compte = compte;
+                    Répercuter();
+                }
+                else
+                {
+                    MessageBox.Show($""); //à finir
+                }
+            }
         }
     }
 }
