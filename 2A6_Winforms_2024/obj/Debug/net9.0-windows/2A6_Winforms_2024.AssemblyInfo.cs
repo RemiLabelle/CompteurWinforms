@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2A6_Winforms_2024")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56555a02482dc2a16d411ccdcb3bc1798189b14f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+754854052ac20f90a18c8f58c0b4fc94365332ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("2A6_Winforms_2024")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2A6_Winforms_2024")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

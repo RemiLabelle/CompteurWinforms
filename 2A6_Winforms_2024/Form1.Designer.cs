@@ -55,6 +55,7 @@
             textBoxCompteur.TabIndex = 1;
             textBoxCompteur.Text = "0";
             textBoxCompteur.TextAlign = HorizontalAlignment.Center;
+            textBoxCompteur.KeyPress += textBoxCompteur_KeyPress;
             // 
             // buttonPlus
             // 

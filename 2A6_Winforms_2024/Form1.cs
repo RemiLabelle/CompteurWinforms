@@ -10,12 +10,15 @@ namespace _2A6_Winforms_2024
 
             _compteur = compteur;
 
+            textBoxCompteur.Text = compteur.Nom;
+
             Répercuter();
         }
 
         private void Répercuter()
         {
             textBoxCompteur.Text = _compteur.Compte.ToString();
+            buttonReset.Enabled = _compteur.Compte != 0;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -72,7 +75,8 @@ namespace _2A6_Winforms_2024
                 }
                 else
                 {
-                    MessageBox.Show($""); //à finir
+                    MessageBox.Show($"Le nombre {textBoxCompteur.Text} est invalide");
+                    textBoxCompteur.Text = _compteur.Compte.ToString();
                 }
             }
         }
