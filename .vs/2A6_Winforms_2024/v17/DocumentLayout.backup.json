@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|c:\\users\\mjose\\onedrive\\bureau\\compteurwinforms\\2a6_winforms_2024\\compteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|solutionrelative:2a6_winforms_2024\\compteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|c:\\users\\mjose\\onedrive\\bureau\\compteurwinforms\\2a6_winforms_2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|solutionrelative:2a6_winforms_2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|c:\\users\\mjose\\onedrive\\bureau\\compteurwinforms\\2a6_winforms_2024\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|solutionrelative:2a6_winforms_2024\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|c:\\users\\mjose\\onedrive\\bureau\\compteurwinforms\\2a6_winforms_2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|c:\\users\\mjose\\onedrive\\bureau\\compteurwinforms\\2a6_winforms_2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|solutionrelative:2a6_winforms_2024\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|c:\\users\\mjose\\onedrive\\bureau\\compteurwinforms\\2a6_winforms_2024\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|solutionrelative:2a6_winforms_2024\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|c:\\users\\mjose\\onedrive\\bureau\\compteurwinforms\\2a6_winforms_2024\\compteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8962F898-951D-45FA-9456-149D50935392}|2A6_Winforms_2024\\2A6_Winforms_2024.csproj|solutionrelative:2a6_winforms_2024\\compteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Program.cs",
               "RelativeDocumentMoniker": "2A6_Winforms_2024\\Program.cs",
-              "ToolTip": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Program.cs*",
-              "RelativeToolTip": "2A6_Winforms_2024\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Program.cs",
+              "RelativeToolTip": "2A6_Winforms_2024\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T16:09:46.383Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Compteur.cs",
               "DocumentMoniker": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Compteur.cs",
               "RelativeDocumentMoniker": "2A6_Winforms_2024\\Compteur.cs",
@@ -59,29 +59,30 @@
               "RelativeToolTip": "2A6_Winforms_2024\\Compteur.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:08:06.761Z"
+              "WhenOpened": "2025-04-11T16:08:06.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "2A6_Winforms_2024\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.Designer.cs",
               "RelativeToolTip": "2A6_Winforms_2024\\Form1.Designer.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowGEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T15:49:07.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.cs",
               "RelativeDocumentMoniker": "2A6_Winforms_2024\\Form1.cs",
-              "ToolTip": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.cs*",
-              "RelativeToolTip": "2A6_Winforms_2024\\Form1.cs*",
+              "ToolTip": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.cs",
+              "RelativeToolTip": "2A6_Winforms_2024\\Form1.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAcwBQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T15:34:27.157Z",
@@ -89,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.resx",
               "DocumentMoniker": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.resx",
               "RelativeDocumentMoniker": "2A6_Winforms_2024\\Form1.resx",
@@ -100,12 +101,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.cs",
               "RelativeDocumentMoniker": "2A6_Winforms_2024\\Form1.cs",
-              "ToolTip": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.cs [Conception]*",
-              "RelativeToolTip": "2A6_Winforms_2024\\Form1.cs [Conception]*",
+              "ToolTip": "C:\\Users\\mjose\\OneDrive\\Bureau\\CompteurWinforms\\2A6_Winforms_2024\\Form1.cs [Conception]",
+              "RelativeToolTip": "2A6_Winforms_2024\\Form1.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T16:52:35.798Z",
               "EditorCaption": " [Conception]"

@@ -30,32 +30,12 @@ namespace _2A6_Winforms_2024
         {
             _compteur.Compte++;
             Répercuter();
-
-            /*if (int.TryParse(textBoxCompteur.Text, out int compteur))
-            {
-                compteur++;
-                textBoxCompteur.Text = compteur.ToString();
-            }
-            else
-            {
-                MessageBox.Show($"Impossible d'incrémenter '{textBoxCompteur.Text}'");
-            }*/
         }
 
         private void buttonMoins_Click(object sender, EventArgs e)
         {
             _compteur.Compte--;
             Répercuter();
-
-            /*if (int.TryParse(textBoxCompteur.Text, out int compteur) && compteur > 0)
-            {
-                compteur--;
-                textBoxCompteur.Text = compteur.ToString();
-            }
-            else
-            {
-                MessageBox.Show($"Impossible de décrémenter '{textBoxCompteur.Text}'");
-            }*/
         }
 
         private void buttonReset_Click(object sender, EventArgs e)
@@ -64,9 +44,9 @@ namespace _2A6_Winforms_2024
             Répercuter();
         }
 
-        private void textBoxCompteur_KeyPress(object sender, KeyPressEventArgs e) 
+        private void textBoxCompteur_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if ((Keys)e.KeyChar == Keys.Return) 
+            if ((Keys)e.KeyChar == Keys.Return)
             {
                 if (int.TryParse(textBoxCompteur.Text, out int compte))
                 {
